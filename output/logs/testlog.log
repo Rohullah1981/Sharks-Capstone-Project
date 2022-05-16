@@ -1,0 +1,114 @@
+2022-04-28 16:17:22,479 - .\src\test\resources\input\log4j.properties -INFO - Scenariologin to Retail Websitestarted
+2022-04-28 16:17:30,068 - .\src\test\resources\input\log4j.properties -INFO - Scenario login to Retail WebsitePASSED
+2022-04-28 16:17:30,092 - .\src\test\resources\input\log4j.properties -INFO - Scenariologin 1started
+2022-04-28 16:17:35,232 - .\src\test\resources\input\log4j.properties -INFO - Scenario login 1PASSED
+2022-04-28 16:17:35,259 - .\src\test\resources\input\log4j.properties -INFO - Scenariologin 3started
+2022-04-28 16:17:40,499 - .\src\test\resources\input\log4j.properties -INFO - Scenario login 3PASSED
+2022-04-28 16:57:06,065 - .\src\test\resources\input\log4j.properties -INFO - Scenariologin to Retail Websitestarted
+2022-04-28 16:57:11,795 - .\src\test\resources\input\log4j.properties -INFO - Scenario login to Retail WebsitePASSED
+2022-04-28 16:57:11,819 - .\src\test\resources\input\log4j.properties -INFO - Scenariologin 1started
+2022-04-28 16:57:16,078 - .\src\test\resources\input\log4j.properties -INFO - Scenario login 1PASSED
+2022-04-28 16:57:16,098 - .\src\test\resources\input\log4j.properties -INFO - Scenariologin 3started
+2022-04-28 16:57:20,204 - .\src\test\resources\input\log4j.properties -INFO - Scenario login 3PASSED
+2022-04-29 23:21:54,341 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser verify all items are present in Desktops tabstarted
+2022-04-29 23:22:01,277 - .\src\test\resources\input\log4j.properties -INFO - Scenario User verify all items are present in Desktops tabUNDEFINED
+2022-04-29 23:26:44,658 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser verify all items are present in Desktops tabstarted
+2022-04-29 23:26:49,300 - .\src\test\resources\input\log4j.properties -INFO - Scenario User verify all items are present in Desktops tabUNDEFINED
+2022-05-09 16:49:45,312 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser verify all items are present in Desktops tabstarted
+2022-05-09 16:49:55,810 - .\src\test\resources\input\log4j.properties -INFO - Scenario User verify all items are present in Desktops tabPENDING
+2022-05-09 16:52:01,614 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser verify all items are present in Desktops tabstarted
+2022-05-09 16:52:06,904 - .\src\test\resources\input\log4j.properties -INFO - Scenario User verify all items are present in Desktops tabPENDING
+2022-05-09 16:53:32,829 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser verify all items are present in Desktops tabstarted
+2022-05-09 16:53:37,753 - .\src\test\resources\input\log4j.properties -INFO - Scenario User verify all items are present in Desktops tabPENDING
+2022-05-09 17:08:11,864 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser verify all items are present in Desktops tabstarted
+2022-05-09 17:08:16,346 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-09 17:08:16,728 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-09 17:08:17,363 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-09 17:08:17,484 - .\src\test\resources\input\log4j.properties -INFO - HP Banner is present in this page
+2022-05-09 17:08:17,523 - .\src\test\resources\input\log4j.properties -INFO - Desktops is present in this page
+2022-05-09 17:08:17,562 - .\src\test\resources\input\log4j.properties -INFO - Apple Cinema 30" is present in this page
+2022-05-09 17:08:17,599 - .\src\test\resources\input\log4j.properties -INFO - Canon EOS 5D Camera is present in this page
+2022-05-09 17:08:17,632 - .\src\test\resources\input\log4j.properties -INFO - HP LP3065 is present in this page
+2022-05-09 17:08:17,656 - .\src\test\resources\input\log4j.properties -INFO - HTC Touch HD is present in this page
+2022-05-09 17:08:17,680 - .\src\test\resources\input\log4j.properties -INFO - iPhone is present in this page
+2022-05-09 17:08:17,706 - .\src\test\resources\input\log4j.properties -INFO - iPod Classic is present in this page
+2022-05-09 17:08:17,738 - .\src\test\resources\input\log4j.properties -INFO - MacBook is present in this page
+2022-05-09 17:08:17,766 - .\src\test\resources\input\log4j.properties -INFO - MacBook Air is present in this page
+2022-05-09 17:08:17,793 - .\src\test\resources\input\log4j.properties -INFO - Palm Treo Pro is present in this page
+2022-05-09 17:08:17,816 - .\src\test\resources\input\log4j.properties -INFO - Product 8 is present in this page
+2022-05-09 17:08:17,842 - .\src\test\resources\input\log4j.properties -INFO - Samsung SyncMaster 941BW is present in this page
+2022-05-09 17:08:17,870 - .\src\test\resources\input\log4j.properties -INFO - Sony VAIO is present in this page
+2022-05-09 17:08:18,810 - .\src\test\resources\input\log4j.properties -INFO - Scenario User verify all items are present in Desktops tabPASSED
+2022-05-09 17:19:58,811 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-09 17:20:03,347 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-09 17:20:03,789 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-09 17:20:04,523 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-09 17:20:05,249 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartUNDEFINED
+2022-05-10 22:48:51,762 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-10 22:48:57,762 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-10 22:48:58,090 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-10 22:48:58,730 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-10 22:49:06,359 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartPENDING
+2022-05-10 22:57:19,345 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-10 22:57:23,478 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-10 22:57:24,005 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-10 22:57:25,269 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-10 22:57:30,732 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartPENDING
+2022-05-10 23:00:29,473 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-10 23:00:36,145 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-10 23:00:36,563 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-10 23:00:37,330 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-10 23:00:42,374 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartUNDEFINED
+2022-05-10 23:17:52,306 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-10 23:17:58,680 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-10 23:17:59,008 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-10 23:17:59,840 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-10 23:18:17,597 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartPASSED
+2022-05-10 23:22:48,509 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-10 23:22:52,860 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-10 23:22:53,317 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-10 23:22:53,956 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-10 23:23:10,882 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartPASSED
+2022-05-10 23:25:52,201 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-10 23:25:56,758 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-10 23:25:57,363 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-10 23:25:58,346 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-10 23:26:15,380 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartPASSED
+2022-05-11 15:26:17,193 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-11 15:26:23,543 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-11 15:26:23,720 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-11 15:26:24,628 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-11 15:26:37,452 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartPASSED
+2022-05-11 15:55:58,510 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-11 15:56:03,453 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-11 15:56:03,784 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-11 15:56:04,520 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-11 15:56:08,275 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartUNDEFINED
+2022-05-11 15:56:35,253 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-11 15:56:39,587 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-11 15:56:39,944 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-11 15:56:40,620 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-11 15:56:54,421 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add HP LP 3065 from Desktops tab to the cartPASSED
+2022-05-11 16:34:47,883 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-05-11 16:34:54,777 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-11 16:34:55,232 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-11 16:34:55,989 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-11 17:08:07,203 - .\src\test\resources\input\log4j.properties -INFO - ScenarioUser verify all items are present in Desktops tabstarted
+2022-05-11 17:08:11,186 - .\src\test\resources\input\log4j.properties -INFO - homePage
+2022-05-11 17:08:11,514 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Desktops tab
+2022-05-11 17:08:12,178 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Show all Desktops
+2022-05-11 17:08:12,343 - .\src\test\resources\input\log4j.properties -INFO - HP Banner is present in this page
+2022-05-11 17:08:12,380 - .\src\test\resources\input\log4j.properties -INFO - Desktops is present in this page
+2022-05-11 17:08:12,417 - .\src\test\resources\input\log4j.properties -INFO - Apple Cinema 30" is present in this page
+2022-05-11 17:08:12,453 - .\src\test\resources\input\log4j.properties -INFO - Canon EOS 5D Camera is present in this page
+2022-05-11 17:08:12,496 - .\src\test\resources\input\log4j.properties -INFO - HP LP3065 is present in this page
+2022-05-11 17:08:12,527 - .\src\test\resources\input\log4j.properties -INFO - HTC Touch HD is present in this page
+2022-05-11 17:08:12,553 - .\src\test\resources\input\log4j.properties -INFO - iPhone is present in this page
+2022-05-11 17:08:12,581 - .\src\test\resources\input\log4j.properties -INFO - iPod Classic is present in this page
+2022-05-11 17:08:12,610 - .\src\test\resources\input\log4j.properties -INFO - MacBook is present in this page
+2022-05-11 17:08:12,642 - .\src\test\resources\input\log4j.properties -INFO - MacBook Air is present in this page
+2022-05-11 17:08:12,668 - .\src\test\resources\input\log4j.properties -INFO - Palm Treo Pro is present in this page
+2022-05-11 17:08:12,695 - .\src\test\resources\input\log4j.properties -INFO - Product 8 is present in this page
+2022-05-11 17:08:12,725 - .\src\test\resources\input\log4j.properties -INFO - Samsung SyncMaster 941BW is present in this page
+2022-05-11 17:08:12,751 - .\src\test\resources\input\log4j.properties -INFO - Sony VAIO is present in this page
+2022-05-11 17:08:13,461 - .\src\test\resources\input\log4j.properties -INFO - Scenario User verify all items are present in Desktops tabPASSED

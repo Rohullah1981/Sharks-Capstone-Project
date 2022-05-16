@@ -1,0 +1,3 @@
+core\Base.class
+page\objects\HomePage.class
+page\objects\LoginPage.class
