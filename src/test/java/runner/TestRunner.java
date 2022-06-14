@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features ="classpath:feature", //We provide path of feature folder
 		glue = "step.definition",  // we provide path of definitions classes
-		tags = "@DesktopTest",               // with tag we will run our test cases
+		tags = "@CompleteTest",               // with tag we will run our test cases
 		dryRun = false,            // dryRun checks if there is any missing step def
 		monochrome = true,         //it makes console readable
 		strict = true,             // this will mark a scenario failded if one step faild

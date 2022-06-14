@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
+
 import org.apache.commons.io.FileUtils;
+import org.apache.velocity.texen.util.FileUtil;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
@@ -17,98 +19,59 @@ import org.openqa.selenium.support.ui.Select;
 import core.Base;
 
 public class Util extends Base {
+
 	// in this class we write our reusable methods.
-	// any methods we will use more than once we will store them here in
-	// static methods.
-
-	/**
-	 * This method returns date and time as a string
-	 * 
-	 * @return
-	 */
-	public static String screenShotName() {
-
+// any methods we will use more than once are stored here in static
+// methods for example screenshot
+	public static String screenShotName() { // this method returns
+// date and time as a string
 		Date date = new Date();
-		String screenShot = date.toString().replace(":", "_").replace(" ", "_");
-		return screenShot;
-
+		String ScreenShot = date.toString().replace(":", "_").replace(" ", "_");
+		return ScreenShot;
 	}
 
 	public static void takeScreenShot() {
-
 		String location = System.getProperty("user.dir") + "\\output\\screenshots\\";
 		String screenShotFileName = screenShotName() + ".png";
-
 		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
 		try {
 			FileUtils.copyFile(file, new File(location + screenShotFileName));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			System.out.println("Exception in execution");
 		}
-
 	}
 
-	/**
-	 * This method will select the value from static Dropdown by visible value
-	 * 
-	 * @param element
-	 * @param text
-	 */
+//this method will select values from static drop-down
 	public static void selectByVisibleText(WebElement element, String text) {
 		Select select = new Select(element);
 		select.selectByVisibleText(text);
-
 	}
 
-	/**
-	 * This method will select value from static Dropdown by index
-	 * 
-	 * @param element
-	 * @param index
-	 */
 	public static void selectByIndex(WebElement element, int index) {
 		Select select = new Select(element);
 		select.selectByIndex(index);
 	}
 
-	/**
-	 * This method will select value from static dropdown by value
-	 * 
-	 * @param element
-	 * @param value
-	 */
 	public static void selectByValue(WebElement element, String value) {
 		Select select = new Select(element);
 		select.selectByValue(value);
-
 	}
 
-	/**
-	 * This method accepts alerts
-	 */
 	public static void acceptAlert() {
 		driver.switchTo().alert().accept();
 	}
 
-	/**
-	 * This method will switch webdriver from parent window to child
-	 */
 	public static void switchToWindow() {
-
 		Set<String> WindowsHandles = driver.getWindowHandles();
 		Iterator<String> it = WindowsHandles.iterator();
-
 		String window = it.next();
 		driver.switchTo().window(window);
-
 	}
 
 	/**
 	 * This method will clear the text using Keys.Control method
-	 * 
+	 *
 	 * @param ele
 	 */
 	public static void clearTextUsingSendKeys(WebElement ele) {
@@ -145,8 +108,8 @@ public class Util extends Base {
 	}
 
 	// sendKeys using JSExecutor
-	// we can use SendKeys with JSExecutor if WebElement has either one of ID, Name,
-	// or Class attributes
+// we can use SendKeys with JSExecutor if WebElement has either one of ID, Name,
+// or Class attributes
 
 	public static void sendKeysWithJS(String element, String value) {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
@@ -164,7 +127,7 @@ public class Util extends Base {
 
 	/**
 	 * This method will return text of element
-	 * 
+	 *
 	 * @param ele
 	 * @return
 	 */
@@ -175,7 +138,7 @@ public class Util extends Base {
 
 	/**
 	 * This method will drag and drop using Actions class
-	 * 
+	 *
 	 * @param sourceElement
 	 * @param targetElement
 	 */
@@ -192,7 +155,10 @@ public class Util extends Base {
 			return false;
 
 	}
-	
-	
+
+	public static void ScrollToElement(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", element);
+	}
 
 }

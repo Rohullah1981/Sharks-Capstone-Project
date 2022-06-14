@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 110936800,
+              "duration": 324816100,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "User is on Retail website",
             "match": {
               "location": "step.definition.DesktopsStepDef.user_is_on_retail_website()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 323808000,
+              "duration": 83952100,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User click on Desktops tab",
             "match": {
               "location": "step.definition.DesktopsStepDef.user_click_on_Desktops_tab()"
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 663186800,
+              "duration": 669324200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User click on Show all desktops",
             "match": {
               "location": "step.definition.DesktopsStepDef.user_click_On_Show_all_desktops()"
@@ -48,11 +48,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-05-11T21:08:06.969Z",
+        "start_timestamp": "2022-06-14T22:24:56.380Z",
         "before": [
           {
             "result": {
-              "duration": 4004602800,
+              "duration": 4251277300,
               "status": "passed"
             },
             "match": {
@@ -60,14 +60,14 @@
             }
           }
         ],
-        "line": 9,
+        "line": 10,
         "name": "User verify all items are present in Desktops tab",
         "description": "",
         "id": "desktops;user-verify-all-items-are-present-in-desktops-tab",
         "after": [
           {
             "result": {
-              "duration": 414311800,
+              "duration": 421648900,
               "status": "passed"
             },
             "match": {
@@ -80,10 +80,10 @@
         "steps": [
           {
             "result": {
-              "duration": 866760500,
+              "duration": 686502400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "User should see all items are present in Desktop page",
             "match": {
               "location": "step.definition.DesktopsStepDef.user_should_see_all_items_are_present_in_Desktops_page()"
@@ -93,7 +93,470 @@
         ],
         "tags": [
           {
-            "name": "@DesktopTest"
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@DesktopsItemPresense"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 63961300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97943800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 611650100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_On_Show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T22:25:03.000Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3102416800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User add HP LP 3065 from Desktops tab to the cart",
+        "description": "",
+        "id": "desktops;user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 4442584400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73957500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click  ADD TO CART option on ‘HP LP3065’ item",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_add_to_cart_option_on_hp_lp3065_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1732631900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select quantity \u00271\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00271\u0027",
+                  "offset": 21
+                }
+              ],
+              "location": "step.definition.DesktopsStepDef.user_select_quantity(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122932400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263837500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see a message \u0027Success: you have added HP LP3065 to your Shopping cart!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Success: you have added HP LP3065 to your Shopping cart!\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "step.definition.DesktopsStepDef.user_should_see_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@AddHP3065"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 142917700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92946300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 541698300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_On_Show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T22:25:13.541Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3005715100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User add Canon EOS 5D from Desktops tab to the cart",
+        "description": "",
+        "id": "desktops;user-add-canon-eos-5d-from-desktops-tab-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 697297900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66967200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click  ADD TO CART option on ‘Canon EOS 5D’ item",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_add_to_cart_option_on_canon_eos_5d_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User select color from dropdown ‘Red’",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_select_color_from_dropdown_red()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1823895500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select quantity 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "step.definition.DesktopsStepDef.user_select_quantity(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69961700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70957900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_should_see_a_message_success_you_have_added_canon_eos_5d_to_your_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@AddCanon5D"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 77955800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131924700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 644623900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_On_Show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T22:25:20.097Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3098554000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "User add a review to Canon EOS 5D item in Desktops tab",
+        "description": "",
+        "id": "desktops;user-add-a-review-to-canon-eos-5d-item-in-desktops-tab;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 489850000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1390528700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on Canon EOS 5D item",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_canon_eos_5d_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90949200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on write a review link",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_write_a_review_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2995600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user fill the review information with below information",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_fill_the_review_information_with_below_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "yourname",
+                  "yourReview",
+                  "Rating"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "review",
+                  "Bad or good"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 326815100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56965500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_should_see_a_message_with_thank_you_for_your_review_it_has_been_submitted_to_the_webmaster_for_approval()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@AddReviewCanon5D"
           }
         ]
       }
@@ -103,6 +566,15 @@
     "id": "desktops",
     "keyword": "Feature",
     "uri": "classpath:feature/Desktops.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@CompleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

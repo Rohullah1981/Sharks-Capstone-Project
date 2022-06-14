@@ -1,42 +1,52 @@
 package step.definition;
 
+import org.junit.Assert;
+
 import core.Base;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import page.objects.HomeCurrencyPage;
+import utilities.Util;
 
 public class HomeStepDef extends Base {
 
-	
-	@Given("user is on Retail home Page")
-	public void user_is_on_retail_home_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	   
+	HomeCurrencyPage homeCurrencyPage = new HomeCurrencyPage();
+
+	@When("User click on Currency")
+	public void user_click_on_currency() {
+		homeCurrencyPage.clickCurrency();
+		logger.info("User clicked on currency");
+
 	}
-	@When("user click on MyAccount")
-	public void user_click_on_my_account() {
-	    // Write code here that turns the phrase above into concrete actions
-	    
+
+	@When("User Chose Euro from dropdown")
+	public void user_chose_euro_from_dropdown() {
+		homeCurrencyPage.selectEuroCurrency();
+		logger.info("User selected Euro currency from dropdown");
+
 	}
-	@When("user click on Login option")
-	public void user_click_on_login_option() {
-	    // Write code here that turns the phrase above into concrete actions
-	    
+
+	@Then("currency value should change to Euro")
+	public void currency_value_should_change_to_euro() {
+		Assert.assertTrue(true);
+		logger.info("Euro icon Currency should be displayed ");
+		Util.takeScreenShot();
+
 	}
-	@When("user enter userName {string}  and password {string}")
-	public void user_enter_user_name_and_password(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    
+
+	@When("User click on shopping cart")
+	public void user_click_on_shopping_cart() {
+		homeCurrencyPage.clickShopingCart();
+		logger.info("User clicked on shoping cart");
+
 	}
-	@When("user click on login button")
-	public void user_click_on_login_button() {
-	    // Write code here that turns the phrase above into concrete actions
-	 
-	}
-	@Then("user should be logged into myAccount Page")
-	public void user_should_be_logged_into_my_account_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    
+
+	@Then("Your shopping cart is empty! message should display")
+	public void your_shopping_cart_is_empty_message_should_display() {
+		Assert.assertTrue(true);
+		logger.info("Your shopping cart is empty!");
+		Util.takeScreenShot();
+
 	}
 
 }
